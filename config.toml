@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://highlighter-docs.silverpond.com.au"
+base_url = "https://beautiful-madeleine-8bac91.netlify.app/" #in prod "https://highlighter-docs.silverpond.com.au"
 title = "Highlighter Documentation"
 description = "This is documentation for the Highlighter product by Silverpond"
 
