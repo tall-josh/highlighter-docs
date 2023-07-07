@@ -26,3 +26,7 @@ Learn key [concepts](../../concepts/introduction/) and understand how to digitis
 ## Running your first assessment process: A tutorial
 
 A tutorial to show you how to run your first assessment process from idea to production.
+
+Let's start by performing an assessment on images to assess for single or double coated dogs.
+
+We begin by setting up a taxonomy.
