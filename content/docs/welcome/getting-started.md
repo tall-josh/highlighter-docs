@@ -20,7 +20,7 @@ Learn key [concepts](../../concepts/introduction/) and understand how to digitis
 
 * [Understand what is an assessment process →](../../concepts/assessment-process/)
 * [Understand what is an enterprise perception system →](../../concepts/enterprise-perception-system/)
-* [Understand what is an agent →](../../concepts/agent/)
+* [Understand what is an agent →](../../concepts/agents/)
 
 ## Running your first assessment process: A tutorial
 
