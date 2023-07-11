@@ -14,7 +14,7 @@ Or you can use flakes (eg., `nix develop` or direnv (.envrc) to install Zola and
 
 The static website is deployed via [Netlify](https://netlify.app/), follwing Zola's [instructions](https://www.getzola.org/documentation/deployment/netlify/):
 * The site is deployed to [https://highlighter-docs.netlify.app/](https://highlighter-docs.netlify.app/) when MRs are merged to `main` in [Github](https://github.com/silverpond/highlighter-docs).
-* Deploys are password protected using [Basic Password Protection](https://docs.netlify.com/visitor-access/site-protection/#basic-password-protection-versus-team-login-protection) by Netlify. Password is in 1Password "Silverpond Shared" vault.
+* Deploys are password protected using [Basic Password Protection](https://docs.netlify.com/visitor-access/site-protection/#basic-password-protection-versus-team-login-protection) by Netlify. Password is in 1Password "Highlighter" vault.
 * There is separate prod site, we will remove the password when it is ready for public view
 * Each MR will will create a [Deploy Preview URL for review](https://docs.netlify.com/site-deploys/deploy-previews/)
 * Deploys are added as comments to a Github MR
