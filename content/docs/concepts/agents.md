@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = 'Agents are people or machines that work on the tasks in an assessment process.'
+lead = 'Agents are people and machines that work on the tasks in an assessment process.'
 toc = true
 top = false
 +++
@@ -28,12 +28,14 @@ An assessment task can be carried out by people through the use of Highlighter's
 
 ## Machine Agents
 
-Machine agents are software programs, typically machine learning models, which can be deployed in Highlighter's cloud or on your servers to perform assessment tasks. They are taught to perform assessments according to the taxonomy defined in Highlighter.
+Machine agents are software programs, often machine learning models, which can be deployed in Highlighter's cloud or on your servers to perform assessment tasks. They are taught to perform assessments according to the taxonomy defined in Highlighter.
 
 ### Training
 
-To train a machine agent, there are two options:
+To train a machine agent, there are three options:
 
-1. Train your own machine learning model and upload the model artefact to run in Highlighter
+1. Use a pre-trained machine learning model, e.g from [HuggingFace](https://huggingface.co/models) and upload the model artefact to run in Highlighter
 
-2. Train a machine learning model using Highlighter
+2. Train your own machine learning model and upload the model artefact to run in Highlighter
+
+3. Train a machine learning model using Highlighter
