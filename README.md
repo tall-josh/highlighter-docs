@@ -8,6 +8,13 @@ This documentation site uses Zola to generate a static website. Follow their [in
 
 Or you can use flakes (eg., `nix develop` or direnv (.envrc) to install Zola and setup the environment.
 
+# Documentation Style
+
+This documentation site follows the [Diátaxis](https://diataxis.fr/) method of documentation:
+  * Concepts (for explanation and learning)
+  * Getting Started and Tutorials sections (to be developed)
+  * How-To Guide section (to be developed)
+  * Reference (to be developed)
 
 ### Deployment
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9b184225-5c69-4c91-8c19-5c6104c96108/deploy-status)](https://app.netlify.com/sites/highlighter-docs/deploys)
