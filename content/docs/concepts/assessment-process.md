@@ -41,8 +41,6 @@ Designing an assessment process usually involves several stages, such as definin
 
 By integrating assessment processes into broader business processes, organizations can ensure continuous improvement, optimize resource allocation, maintain high standards of quality and compliance, and drive strategic decision-making.
 
-
-
 Example Assessment Processes:
 * A patient enters Eastern Medical Clinic to work out why he is feeling ill:
     1. He consults a doctor
@@ -50,3 +48,17 @@ Example Assessment Processes:
     3. the blood test is analyzed by a specialist who determines that the patient has an iron deficiency
 
 This 3 step process is an assessment process carried out by Eastern Medical Clinic to discover what is wrong with their patients.
+
+
+## Assessments
+
+Assessments are the individual tasks that an agent carries out when progressing through an Assessment Process. These tasks could take the form of:
+ * Detection or segmentation which localises objects in sensor data
+ * Determining attributes through classifications (or numeric quantities) associated with those localisations. They may take boolean, enum, or numeric values.
+ * Embeddings which are numeric vectors representing the semantic information of an object.
+ * Identifying unique entities across multiple views across time and space of the same object.
+ * Tracks are sets of localised detections in adjacent frames of a video or sections of text, such that each detection in the track captures the same entity.
+
+See [Capabilities](../capabilities/) for more information and examples of the types of tasks agents complete.
+
+Each of these assessments are claims about the world, and claims from different agents (human or machines or both) can be in conflict with each other.
