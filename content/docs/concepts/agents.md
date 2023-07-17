@@ -20,15 +20,43 @@ Agents work on tasks specified in an asssessment process. Typically in Highlight
 
 ## Capabilities
 
-Capabilities refer to the specific skills, abilities, functions, or competencies that allow the agent (be it a person, or a machine, or a team that combines the two) to perform tasks effectively and contribute towards the successful completion of the assessment. Capabilities allow designers to build an assessment process of competent agents to carry out the work.
+Capabilities are skills that agents have that carry out work in Highlighter. Find out more about [capabilities →](../capabilities/).
+
+## Deploy to Assessment Processes
+
+When you want an agent to get some work done, you deploy them to [assessment processes](../assessment-process/) in Highlighter to complete tasks.
 
 ## People Agents
 
 An assessment task can be carried out by people through the use of Highlighter's Assessment Tool. They can also learn how to perform the assessment by reviewing the taxonomy in the system.
 
+Another common task are for people on your team to work on
+
 ## Machine Agents
 
 Machine agents are software programs, often machine learning models, which can be deployed in Highlighter's cloud or on your servers to perform assessment tasks. They are taught to perform assessments according to the taxonomy defined in Highlighter.
+
+### Deployment of Machine Agents
+
+You can deploy machine agents to different locations to perform work depending on the needs of your solution.
+
+
+|Location|Machine Agents|
+|-|-|
+|<div style="width:300px">Highlighter Cloud</div>|<div style="width:150px">Supported</div>|
+|On-Premise Server|Supported|
+|Edge Device|Supported|
+
+|Platform|Machine Agents|
+|-|-|
+|<div style="width:360px">Linux</div>|<div style="width:150px">Supported</div>|
+|Windows|Supported through [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)|
+
+|Language|Machine Agents|
+|-|-|
+|<div style="width:300px">Python</div>|<div style="width:150px">Supported</div>|
+|Golang|Upcoming Release|
+
 
 ### Training
 
