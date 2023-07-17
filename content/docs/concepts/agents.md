@@ -39,3 +39,21 @@ To train a machine agent, there are three options:
 2. Train your own machine learning model and upload the model artefact to run in Highlighter
 
 3. Train a machine learning model using Highlighter
+
+### Monitoring & Evaluation
+
+Evaluation is the analysis of the efficiency or effectiveness of an agent in carrying out an assigned task. This could include a measurement of how well the agent is carrying out the tasks eg., time taken, cost, accuracy.
+
+Where an evaluation is an analysis conducted at one point in time, monitoring is the continuous analysis of the efficiency and effectiveness of an agent in carrying out a task.
+
+#### People
+
+In addition to measuring accuracy, we allow agents to record their time in timesheets to help with evaluating how well they're carrying out their task.
+
+#### Machines
+
+Highlighter tracks the resource usage of each agent. Resource usage can be measured in:
+* Seconds it takes for a machine to complete work
+* Number of seconds in a file processed (eg., audio, video)
+* Words processed
+* Tokens processed by an LLM
