@@ -9,11 +9,12 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = 'Review the following topics to learn more about the basic concepts and components of <a href="https://highlighter.ai">Highlighter</a>.'
+lead = 'Review the following topics to learn more about the basic concepts and components of <a href="https://highlighter.ai">Highlighter</a>. We recommend that you read them in the following order:'
 toc = true
 top = false
 +++
 
-* [Assessment Process](../assessment-process/)
-* [Enterprise Perception System](../enterprise-perception-system/)
-* [Agents](../agents/)
+1. [Assessment Process](../assessment-process/)
+2. [Enterprise Perception System](../enterprise-perception-system/)
+3. [Agents](../agents/)
+4. [Capabilities](../capabilities/)
