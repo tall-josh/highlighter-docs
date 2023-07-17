@@ -23,9 +23,9 @@ Learn key [concepts](../../concepts/introduction/) and understand how to digitis
 * [Understand what is an agent →](../../concepts/agents/)
 * [Understand capabilities of an agent →](../../concepts/capabilities/)
 
-## Running your first assessment process: A tutorial
+## Design and run your first assessment process: A tutorial
 
-A tutorial to show you how to run your first assessment process from idea to production.
+A tutorial to show you how to design and run your first assessment process from idea to production.
 
 Let's start by performing an assessment on images to assess for single or double coated dogs.
 
