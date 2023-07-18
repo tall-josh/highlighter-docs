@@ -35,4 +35,6 @@ We begin by setting up a taxonomy.
 
 #### Data Source
 
+Let's add some dog photos to Highlighter
+
 #### Asssessment Process
