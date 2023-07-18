@@ -39,10 +39,13 @@ The account is responsible for the data uploaded to Highlighter, and owns the in
 
 Yes, Highlighter makes available the intellectual property developed by users in their own account. You can download the raw data, the assessments and the model weights for you to use elsewhere.
 
+#### Can I run my models outside of Highlighter?
+
+Yes, since you can download the model weights, you can setup your own instance to serve the models. You'll need your own data scientist or engineer to build a solution (eg., on AWS or a custom server) to run the models.
+
 #### What happens to my data at the end of my subscription?
 
 The data is scheduled for deletion after 90 days at the end of the subscription.
-
 
 #### What level of support is offered?
 
