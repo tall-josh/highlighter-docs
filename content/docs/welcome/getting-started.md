@@ -29,4 +29,10 @@ A tutorial to show you how to design and run your first assessment process from 
 
 Let's start by performing an assessment on images to assess for single or double coated dogs.
 
+#### Taxonomy
+
 We begin by setting up a taxonomy.
+
+#### Data Source
+
+#### Asssessment Process
