@@ -61,4 +61,8 @@ Assessments are the individual tasks that an agent carries out when progressing 
 
 See [Capabilities](../capabilities/) for more information and examples of the types of tasks agents complete.
 
-Each of these assessments are claims about the world, and claims from different agents (human or machines or both) can be in conflict with each other.
+Each of these assessments results in data that are claims about the world.
+
+## Claims
+
+Claims is data that results from an assessment performed by an agent. Each claim is a data point about an entity at a point in time eg., species of a fish. Since multiple different agents can assess the same entity, the resulting claims can be in conflict with each other. Claims, which result from an assessment process, are the central information used by the organisation to make decisions and take actions.
