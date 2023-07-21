@@ -63,7 +63,7 @@ We provide the following levels of support:
 
 ## Data Sources
 
-#### How types of data can I import data into Highlighter?
+#### How many types of data can I import data into Highlighter?
 
 Highlighter supports assessment different types of data sources: image, video, audio and text.
 
