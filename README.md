@@ -19,10 +19,8 @@ This documentation site follows the [Diátaxis](https://diataxis.fr/) method of 
 ### Deployment
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9b184225-5c69-4c91-8c19-5c6104c96108/deploy-status)](https://app.netlify.com/sites/highlighter-docs/deploys)
 
-The static website is deployed via [Netlify](https://netlify.app/), follwing Zola's [instructions](https://www.getzola.org/documentation/deployment/netlify/):
+The static website is deployed via [Netlify](https://netlify.app/), following Zola's [instructions](https://www.getzola.org/documentation/deployment/netlify/):
 * The site is deployed to [https://highlighter-docs.netlify.app/](https://highlighter-docs.netlify.app/) when MRs are merged to `main` in [Github](https://github.com/silverpond/highlighter-docs).
-* Deploys are password protected using [Basic Password Protection](https://docs.netlify.com/visitor-access/site-protection/#basic-password-protection-versus-team-login-protection) by Netlify. Password is in 1Password "Highlighter" vault.
-* There is separate prod site, we will remove the password when it is ready for public view
 * Each MR will will create a [Deploy Preview URL for review](https://docs.netlify.com/site-deploys/deploy-previews/)
 * Deploys are added as comments to a Github MR
 * Deploy notifications are sent via slack to #highlighter-docs
