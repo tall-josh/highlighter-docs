@@ -27,6 +27,8 @@ To change the number of results per page, see the section below <a href="#result
 
 On the left of the page are filters that let you to look at your files in different ways. Set your desired filters then click the 'Search' button at the bottom to see files matching those filters. For example, to see files that match Data Source 'My data source', choose that data source in the Data Sources dropdown then click Search. You can choose multiple filters.
 
+For more information about individual filters, see <a href="#filters">Filters</a> below.
+
 ## Actions
 
 Once you have your results, you can take a variety of actions.
@@ -51,23 +53,23 @@ To download files, click the 'Download Files' button. Files will be downloaded o
 
 #### 'Hide/Show Overlays' button
 
-Use this button to hide/show the overlays on individual images that contain annotations/bounding boxes.
+Hide/show the overlays on individual files that contain annotations/bounding boxes.
 
 #### 'Reset' button
 
-Use this button to reset all filters.
+Reset all filters.
 
 #### 'Only Latest Submissions' tick-box
 
-Tick this box to only show results where the filter criteria only occur in the latest submission on an image.
+Only show results where the filter criteria occur in the latest assessments on a file.
 
 #### File ID(s)
 
-Use this input for an ID of a file, optionally comma-separated to use multiple IDs. This is the Highlighter database ID of the file.
+One or more IDs of desired files, optionally comma-separated to use multiple IDs. This is the Highlighter database ID of the file.
 
 #### Original Source URL
 
-Use this input for all or part of the original source URL of files. This will match the text in the URL from which the file was original ingested into Highlighter.
+All or part of the original source URL of desired files. This will match the text in the URL from which the file was original ingested into Highlighter.
 
 #### Content Types
 
@@ -83,15 +85,15 @@ Choose the desired value of the key provided above in File Metadata Key.
 
 #### Data Source
 
-Choose one or more data sources that contain the desired files.
+Choose one or more data sources that contain desired files.
 
 #### Human Assessment Stages
 
-Choose one or more human assessment stages containing the desired files.
+Choose one or more human assessment stages containing desired files.
 
 #### Checked Out By Users
 
-Choose one or more users who have checked out the desired files in a human assessment stage.
+Choose one or more users who have checked out desired files in a human assessment stage.
 
 #### Completed in Queue?
 
@@ -107,7 +109,7 @@ Choose one or more assessment processes containing desired files.
 
 #### Assessment Process Order
 
-Choose one of more assessment process orders containing desired files. To use this filter, you need to also set the Assessment Process filter above to the process that contains the selected assessment process order.
+Choose one or more assessment process orders containing desired files. To use this filter, you need to also set the Assessment Process filter, as above, to the process that contains the selected assessment process order.
 
 #### Capability
 
@@ -127,7 +129,7 @@ Choose one or more object classes contained in assessments on desired files.
 
 #### Intersects
 
-
+Choose one or more object classes whose annotations physically intersect annotations of the main object class, from the ‘Object Classes’ dropdown above.
 
 #### Without
 
