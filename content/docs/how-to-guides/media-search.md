@@ -15,7 +15,7 @@ top = false
 
 Once data has been uploaded and processed in Highlighter, it is common to look for files to download, or to add to new orders for processing. You can jump to those subtasks below:
 
-- <a href="#set-search-filters">Search for files</a>
+- <a href="#search-for-files">Search for files</a>
 - <a href="#download-files">Download files</a>
 - <a href="#add-files-to-a-process-order">Add files to a process order</a>
 
@@ -23,13 +23,15 @@ Once data has been uploaded and processed in Highlighter, it is common to look f
 
 Click 'Develop' in the top navigation then click 'Media' => 'Search' in the side navigation.
 
-## Set search filters
+## Search for files
+
+### Set search filters
 
 On the left of the page are filters that let you to look at your files in different ways. Set your desired filters then click the 'Search' button at the bottom to see files matching those filters. For example, to see files that match Data Source 'My data source', choose that data source in the Data Sources dropdown then click Search. You can choose multiple filters.
 
 For more information about individual filters, see <a href="#filters">Filters</a> below.
 
-## See search results
+### See search results
 
 First you will see a summary of the number of files you are currently seeing. For example if you see '100 of 450 files', that means you currently have 450 results for your current search criteria, but you are only seeing 100 of them because they are paginated. Click a number to go to that page of results,click the Next/Prev buttons, or the First/Last buttons.
 
