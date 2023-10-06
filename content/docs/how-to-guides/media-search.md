@@ -25,15 +25,15 @@ Click 'Develop' in the top navigation then click 'Media' => 'Search' in the side
 
 ## Search for files
 
-### Set search filters
+#### Set search filters
 
 On the left of the page are filters that let you to look at your files in different ways. Set your desired filters then click the 'Search' button at the bottom to see files matching those filters. For example, to see files that match Data Source 'My data source', choose that data source in the Data Sources dropdown then click Search. You can choose multiple filters.
 
 For more information about individual filters, see <a href="#filters">Filters</a> below.
 
-### See search results
+#### See search results
 
-First you will see a summary of the number of files you are currently seeing. For example if you see '100 of 450 files', that means you currently have 450 results for your current search criteria, but you are only seeing 100 of them because they are paginated. Click a number to go to that page of results,click the Next/Prev buttons, or the First/Last buttons.
+In the top left you see a summary of the number of files you are currently seeing. For example if you see '100 of 450 files', that means you currently have 450 results for your current search criteria, but you are only seeing 100 of them because they are paginated. Click a number to go to that page of results, click the Next/Prev buttons, or the First/Last buttons.
 
 To change the number of results per page, see the section below <a href="#results-per-page">Results Per Page</a>.
 
@@ -41,17 +41,19 @@ To change the number of results per page, see the section below <a href="#result
 
 Once you have your results, you can take a variety of actions.
 
-### Take actions on a single file
+#### Take actions on a single file
 
-1. To view a single file - click the eye icon on the file thumbnail
-2. To edit a single file in the annotation tool (only available if an assessment process filter is set) - click the pencil icon on the file thumbnail
-3. To download a single file - click the download icon on the file thumbnail
-
-### Take actions on all files shown
+1. View a single file by clicking the eye icon on a file thumbnail.
+2. Edit a single file in the annotation tool by clicking the pencil icon on the file thumbnail. This option is only available if an assessment process filter is set.
+3. Download a single file clicking the download icon on the file thumbnail.
 
 #### Download files
 
-To download files, click the 'Download Files' button. Files will be downloaded one by one. Your browser might prompt you to allow multiple downloads from this site - click 'Allow'. To cancel the download, close the browser window/tab.
+Download all files by clicking the 'Download Files' button. Files will be downloaded one by one. Your browser might prompt you to allow multiple downloads from this site - click 'Allow'. To cancel the download, close the browser window/tab.
+
+This will only download files shown on the current page of results. Download the rest of the files by advancing to each page in turn as described in the <a href="#see-search-results">See search results</a> section, and clicking the 'Download Files' button there.
+
+This process can be helped by increasing the number of results shown on each page as described in the <a href="#filter-results-per-page">Filter results per page</a> section.
 
 #### Add files to a process order
 
