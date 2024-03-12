@@ -25,7 +25,7 @@ both options.
   
 This tutorial expects you:
 
-  1. [Highlighter Credentials](docs/how-to-guides/highlighter-credentials.md)
+  1. [Highlighter Credentials →](../highlighter-credentials/)
   2. Create a Data Source in the Highlighter Web UI, note the ID from the URL, eg:
   `https://compuglobalhypermeganet.highlighter.ai/data_source/DATASOURCE_ID`
 
