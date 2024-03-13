@@ -23,10 +23,10 @@ both options.
 
 ### Prerequisites
   
-This tutorial expects you:
+This tutorial expects you have done the following:
 
   1. Have [Highlighter Credentials →](../highlighter-credentials/)
-  2. Create a Data Source in the Highlighter Web UI, note the ID from the URL, eg:
+  2. Created a Data Source in the Highlighter Web UI, note the ID from the URL, eg:
   `https://compuglobalhypermeganet.highlighter.ai/data_source/DATASOURCE_ID`
 
 
@@ -96,16 +96,16 @@ the labels as follows.
 
 ### Prerequisites
   
-This tutorial expects you:
+This tutorial expects you have done the following:
 
   1. Have [Highlighter Credentials](./highlighter-credentials.md)
-  2. Create a Data Source in the Highlighter Web UI, note the ID from the URL, eg:
+  2. Created a Data Source in the Highlighter Web UI, note the ID from the URL, eg:
   `https://compuglobalhypermeganet.highlighter.ai/data_source/DATASOURCE_ID`
   4. Create the Object Classes of the same name in Highlighter
-  3. Create an Assessment Process in Highlighter, note the ID from the URL, eq:
+  3. Created an Assessment Process in Highlighter, note the ID from the URL, eq:
   `https://compuglobalhypermeganet.highlighter.ai/projects/PROCESS_ID`
-  5. Add the Object Classes to the Assessment Process
-  6. Your Highlighter User Id
+  5. Added the Object Classes to the Assessment Process
+  6. Found your Highlighter User Id
 
 ### Coco Dataset
 
