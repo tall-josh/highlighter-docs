@@ -25,7 +25,7 @@ both options.
   
 This tutorial expects you:
 
-  1. [Highlighter Credentials →](../highlighter-credentials/)
+  1. Have [Highlighter Credentials →](../highlighter-credentials/)
   2. Create a Data Source in the Highlighter Web UI, note the ID from the URL, eg:
   `https://compuglobalhypermeganet.highlighter.ai/data_source/DATASOURCE_ID`
 
@@ -51,7 +51,7 @@ If you have a text file containing paths to the images you want upload you can
 use the `--file` option.
 
 Each path should be on a new line and should be an absolute path or, they can
-be relitave paths where `--image-dir` will be prepended to each path in the file.
+be relative paths where `--image-dir` will be prepended to each path in the file.
 
 Upon completion you will also have a local directory with symlinks mapping the
 newly created Highlighter file ids to the original files you uploaded.
@@ -77,9 +77,9 @@ hl image create --data-source-id 123 --file images.txt --image-dir foo
 If you have a coco dataset json file you can use the `--file` option.
 
 If needed you can use `--image-dir` to append an directory to the `file_name`s
-im the coco image records.
+in the coco image records.
 
-Upon completion you will also have a duplica coco json file with the `.images[].file_
+Upon completion you will also have a duplicate coco json file with the `.images[].file_
 name` values updated to use the newly create Highlighter file ids
 
 ```shell
@@ -98,10 +98,10 @@ the labels as follows.
   
 This tutorial expects you:
 
-  1. [Highlighter Credentials](./highlighter-credentials.md)
+  1. Have [Highlighter Credentials](./highlighter-credentials.md)
   2. Create a Data Source in the Highlighter Web UI, note the ID from the URL, eg:
   `https://compuglobalhypermeganet.highlighter.ai/data_source/DATASOURCE_ID`
-  4. Create the Object Classes on the same name in Highlighter
+  4. Create the Object Classes of the same name in Highlighter
   3. Create an Assessment Process in Highlighter, note the ID from the URL, eq:
   `https://compuglobalhypermeganet.highlighter.ai/projects/PROCESS_ID`
   5. Add the Object Classes to the Assessment Process
