@@ -49,13 +49,13 @@ a profiles yaml file in at `~/.highlighter-profiles.yaml`
 ```yaml
 # ~/.highlighter-profiles.yaml
 
-profile_name:
+compuglobalhypermeganet:
   api_token: d000d0d0d0d0d0d0d000d0d0d0d0d0d0
   endpoint_url: https://compuglobalhypermeganet.highlighter.ai/graphql
 
 ...
 ```
 
-You can now use the `--profile` option when using the CLI or
+You can now use the `--profile compuglobalhypermeganet` option when using the CLI or
 `HLClient.from_profile(...)` if using the Python API
 
